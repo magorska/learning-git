@@ -1,7 +1,7 @@
 /* Global */
 
 *, *::before, *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container {
@@ -10,11 +10,6 @@
     padding: 0 20px;
 }
 
-.splash {
-    height: 100vh;
-    position: relative;
-    background:  #fff;
-}
 
 body {
     margin: 0;
@@ -27,6 +22,19 @@ body {
 }
 
 /* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background:  #fff;
+    display:  flex;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+}
+
 
 .song-title {
     color: #fff;
@@ -42,11 +50,19 @@ body {
     color: #fff;
 }
 
+.splash i {
+    font-size: 30px;
+    background: #d63031;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%
+}
+
 .splash p {
     width: 70%;
     margin: 0 auto;
     padding: 48px 0;
     font-size: 24px;
-    border-top: 1px solid #d63031;
-    border-bottom: 1px solid #d63031;
 }
