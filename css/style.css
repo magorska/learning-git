@@ -1,0 +1,52 @@
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background:  #fff;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: #3d3d3d;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7
+}
+
+/* Splash */
+
+.song-title {
+    color: #fff;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.artist {
+    margin: 48px 0 0 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.splash p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 48px 0;
+    font-size: 24px;
+    border-top: 1px solid #d63031;
+    border-bottom: 1px solid #d63031;
+}
