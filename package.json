@@ -19,5 +19,8 @@
   "homepage": "https://github.com/magorska/learning-git#readme",
   "devDependencies": {
     "browser-sync": "^2.27.5"
+  },
+  "dependencies": {
+    "html-validate": "^4.14.1"
   }
 }
